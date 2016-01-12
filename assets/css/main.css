@@ -2107,10 +2107,10 @@
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
-			background-image: url("matsya_new/images/Matsya3.jpg"), url("images/light-br.svg");
-			background-position: bottom left, bottom right;
-			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
+			background-image: url("matsya_new/images/Matsya3.jpg");
+			background-position:center left;
+			background-repeat: no-repeat;
+			background-size:700px 500px;
 			color: #fff;
 		}
 

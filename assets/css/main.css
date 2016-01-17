@@ -2051,6 +2051,7 @@
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
+		border-radius:8px;
 	}
 
 		input[type="button"]:hover,
@@ -2420,6 +2421,7 @@
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+			border-radius:180px;
 		}
 
 			#banner .inner header {
@@ -2428,6 +2430,7 @@
 				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
+				border-radius: 5px;
 			}
 
 				#banner .inner header h2 {
@@ -2440,6 +2443,7 @@
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
+					border-radius: 5px;
 				}
 
 			#banner .inner p {

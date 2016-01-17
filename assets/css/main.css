@@ -1800,7 +1800,10 @@
 				display: block;
 				width: 100%;
 			}
-
+		.image.nav {
+			display: block;
+			margin: 0 0 1em 1em;
+		}
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;

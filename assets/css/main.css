@@ -1698,7 +1698,10 @@
 			top: 1em;
 			width: 100%;
 		}
-
+			header.special .icon:before {		 
+ 				font-size: 3.5em;		
+ 				opacity: 0.35;		
+ 			}
 
 
 	footer > :last-child {

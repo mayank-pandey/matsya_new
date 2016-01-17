@@ -2521,14 +2521,11 @@
  	{
  	  	background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-	
-	
-		
-		
+		width: 100%;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
-		opacity: 20;
+		opacity: 0.25;
  	}
 /* CTA */
 

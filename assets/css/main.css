@@ -2516,7 +2516,20 @@
 	body.index #main {
 		padding-top: 5em;
 	}
-
+/*PArt of  NAV SPECIAL for IMAGES*/
+ 	#navlong
+ 	{
+ 	  	background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #645862;
+	
+	
+		
+		
+		color: #fff;
+		padding: 5em;
+		text-align: center;
+		opacity: 20;
+ 	}
 /* CTA */
 
 	#cta {
@@ -2530,7 +2543,8 @@
 		padding: 5em;
 		text-align: center;
 	}
-
+		
+		
 		#cta header {
 			margin-bottom: 2em;
 		}

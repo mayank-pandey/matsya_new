@@ -391,7 +391,7 @@
 	}
 
 	.\34 u, .\34 u\24 {
-		width: 33.3333333333%;
+		width: 25%;
 		clear: none;
 		margin-left: 0;
 	}
@@ -1698,11 +1698,11 @@
 			top: 1em;
 			width: 100%;
 		}
+			header.special .icon:before {		 
+ 				font-size: 3.5em;		
+ 				opacity: 0.35;		
+ 			}
 
-			header.special .icon:before {
-				font-size: 3.5em;
-				opacity: 0.35;
-			}
 
 	footer > :last-child {
 		margin-bottom: 0;
@@ -1800,7 +1800,10 @@
 				display: block;
 				width: 100%;
 			}
-
+		.image.nav {
+			display: block;
+			margin: 0 0 1em 1em;
+		}
 		.image.featured {
 			display: block;
 			margin: 0 0 2em 0;
@@ -2051,6 +2054,7 @@
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
+		border-radius:8px;
 	}
 
 		input[type="button"]:hover,
@@ -2106,11 +2110,11 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
-			background-position: bottom left, bottom right;
-			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
+			background-color: #6495ED;
+			background-image: url("https://raw.githubusercontent.com/mayank-pandey/matsya_new/gh-pages/images/Matsya3.jpg");
+			background-position:center left;
+			background-repeat: no-repeat;
+			background-size: 75em;
 			color: #fff;
 		}
 
@@ -2392,19 +2396,41 @@
 		}
 	}
 
+	#inner1 {
+			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation-fill-mode: forwards;
+			-webkit-animation-fill-mode: forwards;
+			-ms-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			background: rgba(52, 27, 43, 0.5);
+			background-attachment: scroll, scroll, scroll, fixed;
+			color: #fff;
+			cursor: default;
+			padding : 1em;
+			display: inline-block;
+			opacity: 0;
+		
+			text-align: center;
+	}
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-image:   url("images/overlay.png"),  url("../../images/Matsya3.jpg");
+		background-position:  top left, top center;
+		background-repeat:  repeat, no-repeat;
+		background-size:  auto, cover;
 		color: #fff;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
 	}
-
+		
+			
+		
+		
 		#banner .inner {
 			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
 			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
@@ -2420,14 +2446,16 @@
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+			border-radius:180px;
 		}
-
+		
 			#banner .inner header {
 				display: inline-block;
 				border-bottom: solid 2px;
 				border-top: solid 2px;
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
+				border-radius: 5px;
 			}
 
 				#banner .inner header h2 {
@@ -2440,6 +2468,7 @@
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
+					border-radius: 5px;
 				}
 
 			#banner .inner p {
@@ -2487,7 +2516,18 @@
 	body.index #main {
 		padding-top: 5em;
 	}
-
+/*PArt of  NAV SPECIAL for IMAGES*/
+ 	#navlong
+ 	{
+ 	  	background-attachment: fixed;
+		background-color: #fff;
+		backgroun-size: cover;
+	
+		color: #fff;
+		padding: 1em;
+		text-align: center;
+		
+ 	}
 /* CTA */
 
 	#cta {
@@ -2501,7 +2541,8 @@
 		padding: 5em;
 		text-align: center;
 	}
-
+		
+		
 		#cta header {
 			margin-bottom: 2em;
 		}
@@ -2550,7 +2591,7 @@
 		/* Section/Article */
 
 			header.special {
-				padding-top: 5.5em;
+				padding-top: 2.5em;
 				margin-bottom: 4em;
 			}
 
